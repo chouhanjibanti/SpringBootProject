@@ -5,6 +5,7 @@ For this project
 ✨  appliaction.properties file
 
 spring.datasource.url= jdbc:mysql://localhost:3306/swastha3?createDatabaseIfNotExist=true
+
 spring.datasource.username=root
 spring.datasource.password=......
 
@@ -14,13 +15,21 @@ spring.jpa.show-sql=true
 
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 
+
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
+
 spring.mail.host=smtp.gmail.com
+
 spring.mail.port=587
+
 spring.mail.username=  .....@gmail.com
+
 spring.mail.password= ............. ( we won't enter the real password ......After the two step authentication process generate the password key) 
+
 spring.mail.properties.mail.smtp.auth=true
+
 spring.mail.properties.mail.smtp.starttls.enable=true
+
 
 
 
